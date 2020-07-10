@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #abebc6 0%, #d2b4de 100%);
+}
+.container{
+    padding: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: rosybrown;
+}
+.main_screen{
+    margin: 0;
+    background-color: seashell;
+    color: seagreen;
+    font-size: 65px;
+    border-radius: 5px;
+    padding: 10px;
+}
+main_screen span{
+    display: inline-block;
+    width: 85px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    margin: 10px -5px 0;
+}
+.buttons button{
+    flex: 1;
+    margin: 0 5px;
+    font-size: 22px;
+    color: seagreen;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: #7DCEA0;
+}
